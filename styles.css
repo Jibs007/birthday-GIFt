@@ -2,7 +2,7 @@ body{
     text-align: center;
     font-family: serif;
     text-align: center;
-    background-color: #E6AA68;
+    background: linear-gradient(#E6AA68, white) ;
 }
 
 /* Header */
