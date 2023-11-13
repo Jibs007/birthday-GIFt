@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-family: serif;
+    text-align: center;
+    background-color: #E6AA68;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#avatar{
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #ECE4B7;
+}
+
+h2{
+    background-color: #ECE4B7;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Gift-section */
+.caption{
+    margin: 20px auto;
+}
+
+
+.wrapper{
+    background-image: url("images/gift-wrapper\ .jpeg");
+    height: 400px;
+    width: 400px;
+    border: 4px solid #ECE4B7;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+#happy-gif:hover{
+    background-image: url("images/happy-onepiece.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#sexy-gif:hover{
+    background-image: url("images/sexy.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#genius-gif:hover{
+    background-image: url("images/genius.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+#bellingham-gif:hover{
+    background-image: url("images/bellingham\ .gif");
+    background-size: cover;
+    background-position: center;
+}
